@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    min-height: 100vh;
+}
+
+form{
+    background-color: #00ffff;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    width: 40%;
+    padding: 50px 100px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#ContanierSpan{
+    /* background-color: rebeccapurple; */
+    justify-content: center;
+    display: flex;
+
+    flex-direction: column;
+    /* padding: 0 10px; */
+
+}
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+form input,select{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+    background-color: #d1d5db00;
+    border-bottom: 2px solid rgb(122, 130, 155);
+    border-radius: 5px;
+}
+button{
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.Gender{
+    width: 8% !important;
+}
+
+#Cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#Cont span{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width:40% !important;
+    margin: 5px;
+    background-color:#3f587b;
+    padding: 5px;
+}
+#Cont div{  
+    width:100% !important;
+    /* height: 300px; */
+}
+#Cont div img{
+    width: 100%;
+}
+.imgscontanier input{
+    background-color: brown;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

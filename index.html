@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+
+<form onsubmit="submitForm(this);">
+
+    <h1>Sign up</h1>
+<span id="ContanierSpan">
+    <input id="name" placeholder="name">
+    <input id="age" placeholder="age">
+</span>
+<br>
+
+
+
+<div id="Cont">
+    
+    <span>
+        <div><img src="./1.png"/></div>
+        <input class="Gender"  name="gender" type="radio" value="1" checked />
+    </span>
+    
+    <span>
+        <div><img src="./2.png"/></div>
+        <input class="Gender" name="gender" type="radio" value="2">
+    </span>
+
+</div>
+
+
+
+
+<br>
+<select id="slect">
+    <option value="red">red</option>
+    <option value="green">green</option>
+    <option value="blue">blue</option>
+</select>
+
+<br>
+<button type="submit">Submit</button>
+
+</form>
+
+
+<script src="./Task3.js"></script>
+<script src="./CookiesLibirary.js"></script>
+
+<script>
+    function submitForm(e) {
+        e.preventDefault();
+        window.location.href = 'https://ostersjon.github.io/ITI-Cookies/welcome';
+    }
+</script>
+
+
+</body>
+</html>
